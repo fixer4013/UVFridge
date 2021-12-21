@@ -282,6 +282,7 @@ MonoBehaviour:
   objectToPlace: {fileID: 3288032719209296722, guid: 45e6ef394ffa4034ca9f6a112e240f65,
     type: 3}
   placementIndicator: {fileID: 1896408586}
+  animationManager: {fileID: 0}
   raycastManager: {fileID: 388525033}
   placementPose:
     position: {x: 0, y: 0, z: 0}

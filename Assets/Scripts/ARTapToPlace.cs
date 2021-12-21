@@ -9,6 +9,8 @@ public class ARTapToPlace : MonoBehaviour
 {
     public GameObject objectToPlace;
     public GameObject placementIndicator;
+    public GameObject animationManager;
+    public bool existingFridge;
 
     [SerializeField]private ARRaycastManager raycastManager;
     [SerializeField] private Pose placementPose;
@@ -24,15 +26,17 @@ public class ARTapToPlace : MonoBehaviour
         UpdatePlacementPose();
         UpdatePlacementIndicator();
 
-        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && existingFridge == false)
         {
+            existingFridge = true;
             PlaceObject();
         }
     }
 
     private void PlaceObject()
     {
-        Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
+        GameObject clone = Instantiate (objectToPlace, placementPose.position, placementPose.rotation);
+        animationManager.GetComponent<AnimationManager>().GetAnimations(clone);
     }
 
     private void UpdatePlacementIndicator()

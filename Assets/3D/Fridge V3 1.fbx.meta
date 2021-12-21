@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 7522a062ea134bc498f098df69550510
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -2178377813509613186
+    second: Refregerator|CameraAction.001
+  - first:
+      74: -5168575473800959174
+    second: Refregerator|Left_Door_HingeAction
+  - first:
+      74: -1446572035739777823
+    second: Refregerator|Left_DoorAction
+  - first:
+      74: -8952249604976393177
+    second: Refregerator|RefregeratorAction
+  - first:
+      74: 6715916016443783129
+    second: Refregerator|Right_Door_HingeAction
+  - first:
+      74: 3401226570528678456
+    second: Refregerator|Right_DoorAction
+  - first:
+      74: -79566047758122826
+    second: Left_Door_Hinge|CameraAction.001
+  - first:
+      74: 491298585302171077
+    second: Left_Door_Hinge|Left_Door_HingeAction
+  - first:
+      74: 5184526520830951072
+    second: Left_Door_Hinge|Left_DoorAction
+  - first:
+      74: 6271457872571762375
+    second: Left_Door_Hinge|RefregeratorAction
+  - first:
+      74: 7516408173555218452
+    second: Left_Door_Hinge|Right_Door_HingeAction
+  - first:
+      74: 121686072084465180
+    second: Left_Door_Hinge|Right_DoorAction
+  - first:
+      74: 3564986565489198577
+    second: Left_Door|CameraAction.001
+  - first:
+      74: -4213441143454204618
+    second: Left_Door|Left_Door_HingeAction
+  - first:
+      74: -5765847341613412548
+    second: Left_Door|Left_DoorAction
+  - first:
+      74: -8629549093249551919
+    second: Left_Door|RefregeratorAction
+  - first:
+      74: -8007642833546337543
+    second: Left_Door|Right_Door_HingeAction
+  - first:
+      74: 7990491121919133647
+    second: Left_Door|Right_DoorAction
+  - first:
+      74: -5720529093687436989
+    second: Right_Door_Hinge|CameraAction.001
+  - first:
+      74: -2989140575390832290
+    second: Right_Door_Hinge|Left_Door_HingeAction
+  - first:
+      74: -4716918620526537710
+    second: Right_Door_Hinge|Left_DoorAction
+  - first:
+      74: 4709513915640862143
+    second: Right_Door_Hinge|RefregeratorAction
+  - first:
+      74: 4213395076285407138
+    second: Right_Door_Hinge|Right_Door_HingeAction
+  - first:
+      74: 8555466655893833661
+    second: Right_Door_Hinge|Right_DoorAction
+  - first:
+      74: -2714698278732429472
+    second: Right_Door|CameraAction.001
+  - first:
+      74: -4172224181150992465
+    second: Right_Door|Left_Door_HingeAction
+  - first:
+      74: 4571966449300588914
+    second: Right_Door|Left_DoorAction
+  - first:
+      74: 8787265494439578502
+    second: Right_Door|RefregeratorAction
+  - first:
+      74: -2809251924359302043
+    second: Right_Door|Right_Door_HingeAction
+  - first:
+      74: -9124485220985110815
+    second: Right_Door|Right_DoorAction
+  - first:
+      74: -42503074849376115
+    second: Body|CameraAction.001
+  - first:
+      74: -2610679979170462344
+    second: Body|Left_Door_HingeAction
+  - first:
+      74: 5315105245391907675
+    second: Body|Left_DoorAction
+  - first:
+      74: 229708212414857254
+    second: Body|RefregeratorAction
+  - first:
+      74: 3359001116817792040
+    second: Body|Right_Door_HingeAction
+  - first:
+      74: 7393348835480508511
+    second: Body|Right_DoorAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

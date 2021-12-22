@@ -3,17 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorChange : MonoBehaviour
-{   
-    void Update()
+{
+    public Material fridgeColor;
+    public MeshRenderer[] _meshRenderers;
+    public void getMaterials(GameObject clone)
     {
-       MeshRenderer[] mad = transform.GetComponentsInChildren<MeshRenderer>();
+        _meshRenderers = clone.GetComponentsInChildren<MeshRenderer>();
+    }
 
-        for (int i = 0; i < mad.Length; i++)
+    public void changeColor(Material material)
+    {
+        Debug.Log("Chagne Color");
+        fridgeColor = material;
+        for (int i = 0; i < _meshRenderers.Length; i++)
         {
-            if(mad[i].material.name == "Outside (Instance)")
+            if (_meshRenderers[i].material.name == "Outside (Instance)")
             {
-                mad[i].material.SetColor("_Color", Color.red);
+                _meshRenderers[i].material.SetColor("_Color", fridgeColor.color);
             }
         }
+
     }
 }

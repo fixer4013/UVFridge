@@ -8,8 +8,10 @@ using UnityEngine.Experimental.XR;
 public class ARTapToPlace : MonoBehaviour
 {
     public GameObject objectToPlace;
+    public GameObject clone;
     public GameObject placementIndicator;
     public GameObject animationManager;
+    public GameObject colorChange;
     public bool existingFridge;
 
     [SerializeField]private ARRaycastManager raycastManager;
@@ -31,12 +33,19 @@ public class ARTapToPlace : MonoBehaviour
             existingFridge = true;
             PlaceObject();
         }
+
+        if(Input.GetKeyDown(KeyCode.Space) && existingFridge == false)
+        {
+            existingFridge = true;
+            PlaceObject();
+        }
     }
 
     private void PlaceObject()
     {
-        GameObject clone = Instantiate (objectToPlace, placementPose.position, placementPose.rotation);
+        clone = Instantiate (objectToPlace, placementPose.position, placementPose.rotation);
         animationManager.GetComponent<AnimationManager>().GetAnimations(clone);
+        colorChange.GetComponent<ColorChange>().getMaterials(clone);
     }
 
     private void UpdatePlacementIndicator()
@@ -67,5 +76,10 @@ public class ARTapToPlace : MonoBehaviour
             Vector3 cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             placementPose.rotation = Quaternion.LookRotation(cameraBearing);
         }
+    }
+    public void DestroyFridge()
+    {
+        Destroy(clone);
+        existingFridge = false;
     }
 }

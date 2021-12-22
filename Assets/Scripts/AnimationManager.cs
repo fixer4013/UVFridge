@@ -15,12 +15,13 @@ public class AnimationManager : MonoBehaviour
     public void ChangeBool(bool open)
     {
         _Open = open;
+        for (int i = 0; i < _ObjectsWithAnimations.Length; i++)
+        {
+            _ObjectsWithAnimations[i].SetBool("Open", _Open);
+        }   
     }
     void Update()
     {
-        for(int i = 0; i < _ObjectsWithAnimations.Length; i++)
-        {
-            _ObjectsWithAnimations[i].SetBool("Open", _Open);
-        }
+        
     }
 }

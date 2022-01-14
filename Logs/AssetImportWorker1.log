@@ -187,3 +187,155 @@ Received Import Request.
 Start importing Assets/Scenes/gradus sandbox.unity using Guid(123301a6ba8e7394bbe5537e77759357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a2678501217f774b3ac99a0f58938') in 0.007619 seconds 
   Import took 0.045578 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1386.345774 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images
+  artifactKey: Guid(4169c8a7a0818423aa84fe774678e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images using Guid(4169c8a7a0818423aa84fe774678e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6af4d97ba1ac88f8b79ee68bf01511') in 0.623733 seconds 
+  Import took 1.031394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017787 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/project-header-ar.png
+  artifactKey: Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/project-header-ar.png using Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce3fbc98f4e3cc3e1b3bfb0c7a22ef') in 4.297105 seconds 
+  Import took 4.360205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+  artifactKey: Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac92974892ef3eb5bb98959be9d0631') in 0.123309 seconds 
+  Import took 0.162012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.033674 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(58f40b12bbc864f3c96c6505a9a1e1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(58f40b12bbc864f3c96c6505a9a1e1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ead2b65169e6758df6430b6fc8638e3') in 0.820998 seconds 
+  Import took 0.906504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.953270 seconds.
+  path: Assets/ExampleAssets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe18fde07614787e05e8452e6820ea78') in 0.026765 seconds 
+  Import took 0.083293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 702.094579 seconds.
+  path: Assets/Fridge Assets
+  artifactKey: Guid(b1e30b154fb2c024f9c250dd33d7a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fridge Assets using Guid(b1e30b154fb2c024f9c250dd33d7a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c4af16a0eaa36741c0e40da36fc2e9') in 0.102728 seconds 
+  Import took 0.175222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.156811 seconds.
+  path: Assets/Fridge Assets/Gradus
+  artifactKey: Guid(5ad3efd9f0458f84ea41e8bc92f25844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fridge Assets/Gradus using Guid(5ad3efd9f0458f84ea41e8bc92f25844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8099b5b77054ddb7e17b6636fba772db') in 0.048947 seconds 
+  Import took 0.077214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.902839 seconds.
+  path: Assets/Fridge Assets/Martin
+  artifactKey: Guid(3b7442b47b2494f46a3210338a654e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fridge Assets/Martin using Guid(3b7442b47b2494f46a3210338a654e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499d00cd22d29dbbf2294564866f29c9') in 0.024653 seconds 
+  Import took 0.049099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 875.170896 seconds.
+  path: Assets/Fridge Assets/Martin/GamePiece.prefab
+  artifactKey: Guid(af1b5e2791c2e574683a1284f1b706a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fridge Assets/Martin/GamePiece.prefab using Guid(af1b5e2791c2e574683a1284f1b706a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aee2d8a8952c974b960e9c1cfe0970') in 2.471410 seconds 
+  Import took 2.546353 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 4.598918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.18 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in P:\School stuff\Year 4\Future Design\AR Project\My project\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in P:\School stuff\Year 4\Future Design\AR Project\My project\Library\PackageCache\com.unity.xr.oculus@1.11.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <bbfbd5a71eea45d1a1354233c800516b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8123ms)
+		BeginReloadAssembly (6314ms)
+			ExecutionOrderSort (5ms)
+			DisableScriptedObjects (803ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4055ms)
+		EndReloadAssembly (1608ms)
+			LoadAssemblies (380ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2748.
+Total: 13.197700 ms (FindLiveObjects: 0.342900 ms CreateObjectMapping: 0.120300 ms MarkObjects: 12.657200 ms  DeleteObjects: 0.075300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 369.998764 seconds.
+  path: Assets/Fridge Assets/Martin/NewBehaviourScript.cs
+  artifactKey: Guid(1614a58ba94bd164cbaf00dc21d5bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fridge Assets/Martin/NewBehaviourScript.cs using Guid(1614a58ba94bd164cbaf00dc21d5bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a960c0ad07de8dac6094f9874cde1c') in 0.047615 seconds 
+  Import took 0.051155 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

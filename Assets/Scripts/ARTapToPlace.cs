@@ -48,11 +48,12 @@ public class ARTapToPlace : MonoBehaviour
         clone = Instantiate (objectToPlace, placementPose.position, placementPose.rotation);
         animationManager.GetComponent<AnimationManager>().GetAnimations(clone);
         colorChange.GetComponent<ColorChange>().getMaterials(clone);
+        placementIndicator.SetActive(false);
     }
 
     private void UpdatePlacementIndicator()
     {
-        if (placementPoseIsValid)
+        if (placementPoseIsValid && existingFridge == false)
         {
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);

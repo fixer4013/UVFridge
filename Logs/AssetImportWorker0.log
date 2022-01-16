@@ -15,12 +15,12 @@ D:/Unity Projects/UVFridge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54606
+62873
 Successfully changed project path to: D:/Unity Projects/UVFridge
 D:/Unity Projects/UVFridge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.50 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 1.79 ms.
+Refreshing native plugins compatible for Editor in 108.56 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 2.39 ms.
 Initialize engine version: 2020.3.24f1 (79c78de19888)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity Projects/UVFridge/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001951 seconds.
+Registered in 0.002216 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.83 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 50.27 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
+- Completed reload, in  0.627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (568ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (424ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (159ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008388 seconds.
+Registered in 0.008720 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.57 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 64.58 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.359 seconds
+- Completed reload, in  1.466 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1360ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1467ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1145ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1183ms)
+			LoadAssemblies (178ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (381ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (581ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (441ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (253ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.08 ms.
-Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.5 MB.
-System memory in use after: 92.6 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 2304 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 94.0 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2730.
-Total: 3.334000 ms (FindLiveObjects: 0.231300 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.937500 ms  DeleteObjects: 0.074200 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2737.
+Total: 3.330200 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.908700 ms  DeleteObjects: 0.075200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,232 +150,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/3D
-  artifactKey: Guid(0b09eab98f57ddd4681b9ae2207cb37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D using Guid(0b09eab98f57ddd4681b9ae2207cb37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586b2ad95c4428ac4a68149f6fa3e267') in 0.005992 seconds 
-  Import took 0.009340 seconds .
+  path: Assets/Prefab/Fridge.prefab
+  artifactKey: Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fridge.prefab using Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780daff94b021f7fef27bad385123b34') in 0.296855 seconds 
+  Import took 0.301064 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.35 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 5.173000 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.163500 ms MarkObjects: 4.658500 ms  DeleteObjects: 0.018800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 994.758766 seconds.
+  path: Assets/Prefab/Fridge.prefab
+  artifactKey: Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fridge.prefab using Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90653fbd97b20f97245fa8b7f7730a84') in 0.275856 seconds 
+  Import took 0.286853 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.81 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.6 MB.
+System memory in use after: 51.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 19.744400 ms (FindLiveObjects: 1.158900 ms CreateObjectMapping: 0.421700 ms MarkObjects: 18.059200 ms  DeleteObjects: 0.099500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1321.800807 seconds.
+  path: Assets/Prefab/Fridge.prefab
+  artifactKey: Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fridge.prefab using Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086d7f220b760d209fe6a8b021a91823') in 0.412435 seconds 
+  Import took 0.427674 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.29 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.3 MB.
+System memory in use after: 52.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2746.
+Total: 11.962500 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.178400 ms MarkObjects: 11.344400 ms  DeleteObjects: 0.072400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1297.255095 seconds.
+  path: Assets/Prefab/Fridge.prefab
+  artifactKey: Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fridge.prefab using Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdf70bcab168c434ba833fa726470c3') in 0.085272 seconds 
+  Import took 0.091758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.923604 seconds.
-  path: Assets/3D/Fridge.fbx
-  artifactKey: Guid(49b1b69308ce38c41986d74f75923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Fridge.fbx using Guid(49b1b69308ce38c41986d74f75923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59a3e6318704f7abe1b1e6b5df92b61') in 0.767171 seconds 
-  Import took 0.770674 seconds .
+  Time since last request: 15.319032 seconds.
+  path: Assets/Prefab/Fridge.prefab
+  artifactKey: Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fridge.prefab using Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38f98d4983b517ee6214bb0f5e88369') in 0.076848 seconds 
+  Import took 0.081613 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.499901 seconds.
-  path: Assets/3D/Fridge.fbx
-  artifactKey: Guid(49b1b69308ce38c41986d74f75923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Fridge.fbx using Guid(49b1b69308ce38c41986d74f75923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec4bfe9511d50fa17ffab4c049d18eb') in 0.174230 seconds 
-  Import took 0.177611 seconds .
+  Time since last request: 1.124496 seconds.
+  path: Assets/Prefab/Fridge.prefab
+  artifactKey: Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fridge.prefab using Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527d54365788fd4e780239d0983032ee') in 0.058334 seconds 
+  Import took 0.062702 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/3D/Material.001.mat
-  artifactKey: Guid(90ab2962381d27140b63c6e960658708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Material.001.mat using Guid(90ab2962381d27140b63c6e960658708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c4ea11772ebc03e76daa8a35680819') in 0.014752 seconds 
-  Import took 0.017720 seconds .
+  Time since last request: 1.161199 seconds.
+  path: Assets/Prefab/Fridge.prefab
+  artifactKey: Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fridge.prefab using Guid(45e6ef394ffa4034ca9f6a112e240f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982131cb159a08b8a589e97dcf998195') in 0.067013 seconds 
+  Import took 0.073047 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/3D/Samsung_Fridge.mat
-  artifactKey: Guid(375d834a870645743a4a88222b3acf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Samsung_Fridge.mat using Guid(375d834a870645743a4a88222b3acf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af2b3c01a26e886f247a984c1f767d3') in 0.014165 seconds 
-  Import took 0.017969 seconds .
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.66 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.4 MB.
+System memory in use after: 53.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/3D/Samsung_Fridge.002.mat
-  artifactKey: Guid(bdd249626d21969428ff2bd01390abc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Samsung_Fridge.002.mat using Guid(bdd249626d21969428ff2bd01390abc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c60c969ce2b064836e3f3d732e3b0f') in 0.013500 seconds 
-  Import took 0.016964 seconds .
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2746.
+Total: 6.947900 ms (FindLiveObjects: 0.470700 ms CreateObjectMapping: 0.297100 ms MarkObjects: 6.127600 ms  DeleteObjects: 0.050400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 28.388173 seconds.
-  path: Assets/3D/Material.001.mat
-  artifactKey: Guid(34ca99ea462af864cb28e4f8d214a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Material.001.mat using Guid(34ca99ea462af864cb28e4f8d214a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782a350b18297e8b6a0d855f0c5b98a7') in 0.222678 seconds 
-  Import took 0.226232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/3D/Samsung_Fridge.002.mat
-  artifactKey: Guid(e5d801e8db9545440ab13db9fdc51542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Samsung_Fridge.002.mat using Guid(e5d801e8db9545440ab13db9fdc51542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33500be37aadee7b5fb0b163650fe9a5') in 0.009057 seconds 
-  Import took 0.012375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/3D/Samsung_Fridge.mat
-  artifactKey: Guid(8910ee5cdb41a8f4caf306a0cd02b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Samsung_Fridge.mat using Guid(8910ee5cdb41a8f4caf306a0cd02b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3912b1aa13209a8787e8211aa3f60db') in 0.008756 seconds 
-  Import took 0.011699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.702328 seconds.
-  path: Assets/3D/1k
-  artifactKey: Guid(9fabe8e6f56066a439032b3dde95bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/1k using Guid(9fabe8e6f56066a439032b3dde95bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8db56916a89b5fb366de848a2f74370') in 0.002934 seconds 
-  Import took 0.006474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.187653 seconds.
-  path: Assets/3D/Fridge.fbx
-  artifactKey: Guid(49b1b69308ce38c41986d74f75923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Fridge.fbx using Guid(49b1b69308ce38c41986d74f75923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f8a4e0a378f5bd9995f8fa49a6b005') in 0.175009 seconds 
-  Import took 0.178413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/3D/Samsung_Fridge 1.mat
-  artifactKey: Guid(73e22282c29d75649a7319f76d184f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Samsung_Fridge 1.mat using Guid(73e22282c29d75649a7319f76d184f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3190788adae9f47086bac8b74bbf3d') in 0.011506 seconds 
-  Import took 0.014779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/3D/Samsung_Fridge.002 1.mat
-  artifactKey: Guid(6dd966575a4958143bcbb6eacad4774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Samsung_Fridge.002 1.mat using Guid(6dd966575a4958143bcbb6eacad4774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4cc8eafb46cedce2b67dcc2b28a2bb') in 0.013467 seconds 
-  Import took 0.017079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/3D/Material.001 1.mat
-  artifactKey: Guid(a69725748f4736f4ca5a00a88b3077fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/Material.001 1.mat using Guid(a69725748f4736f4ca5a00a88b3077fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8970d63cbd052899e7b5626507780c') in 0.014929 seconds 
-  Import took 0.018619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.686550 seconds.
-  path: Assets/1k/Metallic.jpg
-  artifactKey: Guid(c5b05487c44fd2e4fb766dd74a0beec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Metallic.jpg using Guid(c5b05487c44fd2e4fb766dd74a0beec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5eb89a029d1c8fb72c34e904b20fc2a') in 0.049692 seconds 
-  Import took 0.053106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/1k/Samsung_Fridge_low_Samsung_Fridge_ior.jpg
-  artifactKey: Guid(44bf47aec3125ab4fabeefafe74da418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Samsung_Fridge_low_Samsung_Fridge_ior.jpg using Guid(44bf47aec3125ab4fabeefafe74da418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc233a931aaa19118d16bad77e02eece') in 0.012973 seconds 
-  Import took 0.016189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Glossiness.jpg
-  artifactKey: Guid(48d28fe1bfde4714e931b7f35f743a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Glossiness.jpg using Guid(48d28fe1bfde4714e931b7f35f743a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041277c3e2afbd65c8ef6f455977a5be') in 0.017255 seconds 
-  Import took 0.020483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Normal.jpg
-  artifactKey: Guid(6f4f18ed5431f0e41b5f81b8c4118f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Normal.jpg using Guid(6f4f18ed5431f0e41b5f81b8c4118f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971e748bec67ffcfe0df7ac40c6f91a8') in 0.019088 seconds 
-  Import took 0.022455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Emissive.jpg
-  artifactKey: Guid(6443b7986bd8562498972f2412b3da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Emissive.jpg using Guid(6443b7986bd8562498972f2412b3da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80812ac4dd69bfd2699e7d99aed46752') in 0.013471 seconds 
-  Import took 0.016625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Height.jpg
-  artifactKey: Guid(9908227ec6db1ce4e9d9949c775b757b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Height.jpg using Guid(9908227ec6db1ce4e9d9949c775b757b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489534d682d453691fe101ddd1e571eb') in 0.016725 seconds 
-  Import took 0.019980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Diffuse.jpg
-  artifactKey: Guid(e7cd2f15ad135d24687fe9cfea835f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Diffuse.jpg using Guid(e7cd2f15ad135d24687fe9cfea835f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309772fdda078f8839eea93e870acc73') in 0.012859 seconds 
-  Import took 0.015870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Reflection.jpg
-  artifactKey: Guid(d0bd04544bb0cc74495834520e5fe480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1k/Samsung_Fridge_low_Samsung_Fridge_Reflection.jpg using Guid(d0bd04544bb0cc74495834520e5fe480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30579f7faa78b5fe459a5857f2d6124d') in 0.011515 seconds 
-  Import took 0.015528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.342662 seconds.
-  path: Assets/Fridge.fbx
-  artifactKey: Guid(c36c956a0f171134181c867e43587cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fridge.fbx using Guid(c36c956a0f171134181c867e43587cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa80c00451067a97d542a045905ca20a') in 0.167521 seconds 
-  Import took 0.172177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.638243 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003763 seconds 
-  Import took 0.007054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.871385 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(3c0ca4dfe997d4e448677bf3623b8a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(3c0ca4dfe997d4e448677bf3623b8a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9be78caac3c718d8b512833024b151') in 0.003749 seconds 
-  Import took 0.007478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.859925 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(fda326deecacf58438ce215fe790a3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(fda326deecacf58438ce215fe790a3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7109c3a1996f5c33285c122ddb94bb') in 0.003028 seconds 
-  Import took 0.006988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.005428 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(fea2b03111fd44c01a102c644b335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(fea2b03111fd44c01a102c644b335bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc91e90ee53ff030de6dfea788dd010') in 0.003577 seconds 
-  Import took 0.007024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.099184 seconds.
-  path: Assets/Scenes/BlankAR.unity
-  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f53d7923ad005e142ce4ec5b881aa01') in 0.003998 seconds 
-  Import took 0.007968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.883639 seconds.
-  path: Assets/Scenes/gradus sandbox.unity
-  artifactKey: Guid(123301a6ba8e7394bbe5537e77759357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/gradus sandbox.unity using Guid(123301a6ba8e7394bbe5537e77759357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb90e6904ff825883f5d53eb213485b') in 0.003445 seconds 
-  Import took 0.006765 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

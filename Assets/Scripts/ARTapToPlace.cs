@@ -12,6 +12,7 @@ public class ARTapToPlace : MonoBehaviour
     public GameObject placementIndicator;
     public GameObject animationManager;
     public GameObject colorChange;
+    public GameObject UI;
     public bool existingFridge;
 
     [SerializeField]private ARRaycastManager raycastManager;
@@ -43,6 +44,7 @@ public class ARTapToPlace : MonoBehaviour
 
     private void PlaceObject()
     {
+        UI.SetActive(true);
         clone = Instantiate (objectToPlace, placementPose.position, placementPose.rotation);
         animationManager.GetComponent<AnimationManager>().GetAnimations(clone);
         colorChange.GetComponent<ColorChange>().getMaterials(clone);
@@ -81,5 +83,6 @@ public class ARTapToPlace : MonoBehaviour
     {
         Destroy(clone);
         existingFridge = false;
+        UI.SetActive(false);
     }
 }
